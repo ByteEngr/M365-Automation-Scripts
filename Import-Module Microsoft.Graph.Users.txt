@@ -1,0 +1,17 @@
+Import-Module Microsoft.Graph.Users
+
+Connect-MgGraph -Scopes "User.ReadWrite.All"
+
+$newUser = @{
+    accountEnabled = $true
+    displayName = "John Doe"
+    mailNickname = "johndoe"
+    userPrincipalName = "johndoe@contoso.com"
+    passwordProfile = @{
+        forceChangePasswordNextSignIn = $true
+        password = "TempP@ssw0rd!"
+    }
+    usageLocation = "GB"
+}
+
+New-MgUser -BodyParameter $newUser
