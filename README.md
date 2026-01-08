@@ -10,17 +10,18 @@ Designed for Identity Engineers, M365 Consultants, and Security Teams.
 
 Scripts Included:
 
-✔ Automated User Onboarding Script
+1. Automated User Onboarding Script
 
-✔ Automated Offboarding Script
+2. Automated Offboarding Script
 
-✔ MFA Status Report
+3. MFA Status Report
 
-✔ License Assignment Automation
+4. License Assignment Automation
 
-✔ Inactive User Report
+5. Inactive User Report
 
-✔ Security Baseline Checks
+6. Security Baseline Checks
 
 Tech Used:
+
 PowerShell, Graph API, AzureAD, MSOnline, ExchangeOnline, Entra ID
